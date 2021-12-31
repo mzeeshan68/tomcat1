@@ -1,0 +1,40 @@
+31-Dec-2021 01:49:25.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+31-Dec-2021 01:49:25.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+31-Dec-2021 01:49:25.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+31-Dec-2021 01:49:25.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Dec-2021 01:49:25.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-1022-aws
+31-Dec-2021 01:49:25.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Dec-2021 01:49:25.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+31-Dec-2021 01:49:25.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_312-8u312-b07-0ubuntu1~20.04-b07
+31-Dec-2021 01:49:25.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+31-Dec-2021 01:49:25.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat/apache-tomcat-8.5.73
+31-Dec-2021 01:49:25.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat/apache-tomcat-8.5.73
+31-Dec-2021 01:49:25.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/apache-tomcat-8.5.73/conf/logging.properties
+31-Dec-2021 01:49:25.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Dec-2021 01:49:25.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Dec-2021 01:49:25.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Dec-2021 01:49:25.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+31-Dec-2021 01:49:25.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-Dec-2021 01:49:25.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat/apache-tomcat-8.5.73
+31-Dec-2021 01:49:25.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat/apache-tomcat-8.5.73
+31-Dec-2021 01:49:25.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/apache-tomcat-8.5.73/temp
+31-Dec-2021 01:49:25.095 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+31-Dec-2021 01:49:25.298 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+31-Dec-2021 01:49:25.340 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Dec-2021 01:49:25.437 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1844 ms
+31-Dec-2021 01:49:25.671 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Dec-2021 01:49:25.674 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+31-Dec-2021 01:49:25.793 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat/apache-tomcat-8.5.73/webapps/jsp_app.war]
+31-Dec-2021 01:49:26.355 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat/apache-tomcat-8.5.73/webapps/jsp_app.war] has finished in [561] ms
+31-Dec-2021 01:49:26.364 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager]
+31-Dec-2021 01:49:26.437 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/manager] has finished in [73] ms
+31-Dec-2021 01:49:26.438 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/docs]
+31-Dec-2021 01:49:26.470 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/docs] has finished in [32] ms
+31-Dec-2021 01:49:26.470 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/examples]
+31-Dec-2021 01:49:27.287 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/examples] has finished in [817] ms
+31-Dec-2021 01:49:27.288 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager]
+31-Dec-2021 01:49:27.330 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/host-manager] has finished in [41] ms
+31-Dec-2021 01:49:27.332 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/ROOT]
+31-Dec-2021 01:49:27.361 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.73/webapps/ROOT] has finished in [29] ms
+31-Dec-2021 01:49:27.369 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+31-Dec-2021 01:49:27.392 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1954 ms
